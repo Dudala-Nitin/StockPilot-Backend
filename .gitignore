@@ -1,0 +1,24 @@
+# Maven build files
+target/
+*.class
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+src/main/resources/application-local.properties
+*.secret
+*.key
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+
+# Operating system files
+.DS_Store
+Thumbs.db
